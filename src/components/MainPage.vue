@@ -45,13 +45,13 @@
 
     <div v-else transition="scale-transition">
       <p class="disp font-weight-bold mt-4 text-uppercase">
-        #{{$t('lastUpdate')}}:
-        <span class="disp font-weight-regular">{{dateNoww}} GMT+3</span>
+        {{$t('lastUpdate')}}:
+        <span class="disp font-weight-regular">{{dateNoww}}</span>
       </p>
 
       <h1 class="disp mt-3">
         <v-avatar size="70" class="mr-4">
-          <v-img src="@/assets/ethiopia.png"></v-img>
+          <v-img src="@/assets/yemen.png"></v-img>
         </v-avatar>
         {{$t('country')}}
          <!-- {{res_data.country}} -->
@@ -126,7 +126,7 @@ export default {
 
   data: () => {
     return {
-      langs: ["English", "العربية"],
+      langs: ["English", "Arabic"],
 
       res_data: {},
       // name: "",
@@ -144,7 +144,7 @@ export default {
   methods: {
     async get_from_server() {
       this.loading = true;
-      const res = await axios.get("https://coronavirus-scrapy.herokuapp.com/?country=ethiopia");
+      const res = await axios.get("https://coronavirus-scrapy.herokuapp.com/?country=yemen");
 
       this.dateNoww = new Date().toLocaleString();
 

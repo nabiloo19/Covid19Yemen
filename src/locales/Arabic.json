@@ -1,0 +1,29 @@
+{
+  "title": "جائحة كورونا",
+
+  "nav": {
+    "contribute": "تطوع",
+    "importantLinks": "موافع مفيدة",
+    "contributeHeader": "هل تريدالمساعده؟",
+    "contributeTxt": "للمساعدة في جمع المواقع المفيدة, يرجى الضعغط على الزرادناه",
+    "contributeButton": "تطوع"
+  },
+
+  "refreshButton": "تحديث",
+  "country": "اليمن",
+  "lastUpdate": "اخر تحديث",
+  "totalCases": "إجمالي الحالات",
+  "newCases": "حالات الاصابة المسجلة لليوم",
+  "totalDeathCases": "إجمالي الوفيات",
+  "newDeathCases": "حالات الوفاة المسجلة لليوم",
+  "totalRecoveredCases": "حالات الشفاء",
+  "activeCases": "الحالات المصابة حاليا",
+  "seriousCases": "الحالات الخطيرة",
+  "outOf1m": "مجموع الحالات المصابة من 1 مليون نسمة",
+  "totaltests": "إجمالي الاختبارات",
+  "totaltestspermillion":"إجمالي الاختبارات ل 1 مليون نسمة",
+  "population":"التعداد السكاني",
+  "note": "ملاحظة",
+  "noteTxt": "البيانات ليست ثابتة وتتغير من وقت لآخر. تأكد من الضغط على زر التحديث بانتظام للحصول على التحديثات"
+}
+

@@ -1,4 +1,4 @@
-# covid19et
+# covid19ye
 
 ## Project setup
 ```
