@@ -126,7 +126,7 @@ export default {
 
   data: () => {
     return {
-      langs: ["English", "Amharic"],
+      langs: ["English", "العربية"],
 
       res_data: {},
       // name: "",
