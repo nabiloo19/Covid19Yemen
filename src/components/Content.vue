@@ -45,7 +45,7 @@
             text
             flat
             outlined
-            href="https://github.com/nabiloo19/Covid19-Ethiopia-Links"
+            href="https://github.com/nabiloo19/Covid19-Yemen-Links"
             target="_blank"
             @click="dialog = false"
           >{{$t('nav.contributeButton')}}</v-btn>
@@ -104,7 +104,7 @@
           </v-list-item>
             
             <!-- COVID-19 Info -->
-            <v-list-item href="https://www.youtube.com/watch?v=BtN-goy9VOY" target="_blank">
+            <v-list-item href="https://www.youtube.com/watch?v=iBHMmyW_xlA" target="_blank">
               <v-list-item-icon>
                 <v-icon>mdi-file-video</v-icon>
               </v-list-item-icon>
@@ -114,24 +114,16 @@
             </v-list-item>
 
             <!-- Multi-Lang Covid Info -->
-            <v-list-item href="https://t.me/covid19ethio" target="_blank">
+            <v-list-item href="https://www.un.org/ar/coronavirus" target="_blank">
               <v-list-item-icon>
                 <v-icon>mdi-telegram</v-icon>
               </v-list-item-icon>
               <v-list-item-content>
-                <v-list-item-title>Multi-Lang COVID-19 Info</v-list-item-title>
+                <v-list-item-title>United Nation Arabic COVID Page</v-list-item-title>
               </v-list-item-content>
             </v-list-item>
 
-            <!-- Ethio News -->
-            <v-list-item href="https://t.me/tikvahethiopia" target="_blank">
-              <v-list-item-icon>
-                <v-icon>mdi-telegram</v-icon>
-              </v-list-item-icon>
-              <v-list-item-content>
-                <v-list-item-title>Ethiopia News Amharic</v-list-item-title>
-              </v-list-item-content>
-            </v-list-item>
+           
 
           <!-- TODO -->
           <!-- 
